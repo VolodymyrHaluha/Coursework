@@ -1,19 +1,41 @@
+A {
+    text-decoration: none;
+}
 .body{
     background-color: #803535;
     font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(152, 243, 140);
+    border-bottom: 1px solid rgb(205, 50, 50);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    transition: font-size 0.5s ease;
 }
 
-.header-container{
-text-align: center;
-padding: 10px;
-background-color: rgb(152, 243, 140);
-width: 100%;
-height: 100%;
-top: 0;
-border-bottom: 1px solid rgb(205, 50, 50);
-border-bottom-left-radius: 10px; 
-border-bottom-right-radius: 10px;
-transition: font-size 0.5s ease;
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 10px; 
+}
+
+.yellow-text {
+    color: yellow; 
+    margin-right: 0%;
+    color: rgb(217, 255, 0);
+}
+
+.blue-text {
+    color: blue; 
 }
 .header {
     display: flex;
@@ -23,15 +45,6 @@ transition: font-size 0.5s ease;
     margin: 0 auto;
     padding: 10px 0;
     background-color: var(--mainColor);
-}
-.yellow-text {
-    margin-right: 0%;
-    margin-left: -7%;
-color: rgb(217, 255, 0);
-}
-.blue-text {
-    margin-left: -21mm;
-    color: blue;
 }
 #icon{
     float: right;
@@ -55,8 +68,34 @@ color: rgb(217, 255, 0);
 .hidden {
     display: none;
 }
+/* Базові стилі для всіх розмірів екрану */
+
+/* Ваші стилі тут... */
+
+/* Медіазапит для екранів шириною від 600px і більше */
 @media screen and (min-width: 600px) {
-    .header-container {
-        padding: 20px;
-    }
+    /* Стилі для екранів шириною від 600px і більше */
+
+    /* Ваші стилі для більших екранів тут... */
+}
+
+/* Медіазапит для екранів шириною від 768px і більше */
+@media screen and (min-width: 768px) {
+    /* Стилі для екранів шириною від 768px і більше */
+
+    /* Ваші стилі для більших екранів тут... */
+}
+
+/* Медіазапит для екранів шириною від 1024px і більше */
+@media screen and (min-width: 1024px) {
+    /* Стилі для екранів шириною від 1024px і більше */
+
+    /* Ваші стилі для більших екранів тут... */
+}
+
+/* Медіазапит для екранів шириною від 1200px і більше */
+@media screen and (min-width: 1200px) {
+    /* Стилі для екранів шириною від 1200px і більше */
+
+    /* Ваші стилі для більших екранів тут... */
 }
