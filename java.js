@@ -13,3 +13,12 @@ icon.addEventListener('click', function() {
         popupContainer.classList.add('hidden');
     }
 });
+function showBasket() {
+    var popup = document.getElementById('basket-popup');
+    popup.style.display = 'block';
+}
+
+function placeOrder() {
+    // Додайте код для обробки замовлення
+    alert('Ваше замовлення успішно розміщено!');
+}
