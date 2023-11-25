@@ -60,28 +60,3 @@ color: rgb(217, 255, 0);
         padding: 20px;
     }
 }
-.popup {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.popup button {
-    margin-top: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.popup button:hover {
-    background-color: #45a049;
-}
