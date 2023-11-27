@@ -1,29 +1,89 @@
 A {
     text-decoration: none;
 }
-.body{
-    background-color: #803535;
-    font-size: 16px;
-    font-family: 'Roboto Slab', serif;
+A:active{
+color: blue
+}
+h1{
+    text-align: center
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
+html, body{
+    background-color: rgb(240, 238, 178);
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Pacifico', sans-serif;
 }
 .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: rgb(152, 243, 140);
+    background-color: rgb(137, 240, 124);
     border-bottom: 1px solid rgb(205, 50, 50);
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
     transition: font-size 0.5s ease;
+    color: aqua;
 }
-
+.image_sale{
+    width: auto;
+    height: 250px;
+}
+.main_container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sale_section_block{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sets_section_block{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.cooperation-section{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.order-button{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
 .logo-container {
     display: flex;
     align-items: center;
 }
-
+.contacts{
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    transition: font-size 0.5s ease;
+}
 #logo {
     margin-right: 10px; 
 }
@@ -33,7 +93,6 @@ A {
     margin-right: 0%;
     color: rgb(217, 255, 0);
 }
-
 .blue-text {
     color: blue; 
 }
@@ -68,34 +127,21 @@ A {
 .hidden {
     display: none;
 }
-/* Базові стилі для всіх розмірів екрану */
-
-/* Ваші стилі тут... */
-
-/* Медіазапит для екранів шириною від 600px і більше */
 @media screen and (min-width: 600px) {
-    /* Стилі для екранів шириною від 600px і більше */
-
-    /* Ваші стилі для більших екранів тут... */
+    
 }
 
-/* Медіазапит для екранів шириною від 768px і більше */
+
 @media screen and (min-width: 768px) {
-    /* Стилі для екранів шириною від 768px і більше */
 
-    /* Ваші стилі для більших екранів тут... */
 }
 
-/* Медіазапит для екранів шириною від 1024px і більше */
+
 @media screen and (min-width: 1024px) {
-    /* Стилі для екранів шириною від 1024px і більше */
 
-    /* Ваші стилі для більших екранів тут... */
 }
 
-/* Медіазапит для екранів шириною від 1200px і більше */
-@media screen and (min-width: 1200px) {
-    /* Стилі для екранів шириною від 1200px і більше */
 
-    /* Ваші стилі для більших екранів тут... */
+@media screen and (min-width: 1200px) {
+
 }
