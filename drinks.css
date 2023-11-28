@@ -1,0 +1,223 @@
+A {
+    text-decoration: none;
+}
+A:active{
+color: blue
+}
+h1{
+    text-align: center
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
+@media (min-width: 992px) {
+    .header-container{
+        width: 100%;
+    }
+    .sale_section_block1,
+    .sale_section_block2,
+    .sale_section_block3,
+    .sale_section_block4 {
+        width: 25%;
+    }
+    .cooperation-section-cour,
+    .cooperation-section-user{
+        width: 25%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+
+    .header-container{
+        flex-wrap: wrap;
+    }
+    .sale_section_block1,
+    .sale_section_block2,
+    .sale_section_block3,
+    .sale_section_block4 {
+        flex-wrap: wrap;
+    }
+    .cooperation-section-cour,
+    .cooperation-section-user{
+        flex-wrap: wrap;
+    }
+  
+    .header-container{
+        width: 50%;
+    }
+    .sale_section_block1,
+    .sale_section_block2,
+    .sale_section_block3,
+    .sale_section_block4 {
+        width: 50%;
+    }
+    .cooperation-section-cour,
+    .cooperation-section-user{
+        width: 50%;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+    .sale_section_block1,
+    .sale_section_block2,
+    .sale_section_block3,
+    .sale_section_block4{
+        width: 100%;
+    }
+    .cooperation-section-cour,
+    .cooperation-section-user{
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-container{
+        flex-direction: column;
+    }
+    .sale_section_block1,
+    .sale_section_block2,
+    .sale_section_block3,
+    .sale_section_block4 {
+        flex-direction: column;
+    }
+    .cooperation-section-cour,
+    .cooperation-section-user{
+        flex-direction: column;
+    }
+  }
+html, body{
+    display: block;
+    background-color: rgb(240, 238, 178);
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(137, 240, 124);
+    border-bottom: 1px solid rgb(205, 50, 50);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    transition: font-size 0.5s ease;
+    color: aqua;
+}
+.drinks_sale{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.last_container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.sale_section_block1,
+.sale_section_block2,
+.sale_section_block3,
+.sale_section_block4{
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sale-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.cooperation{
+    display: flex;
+    justify-content: center;
+}
+.image_bolt,
+.image_user{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.cooperation-section-cour,
+.cooperation-section-user {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+.registration-button{
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none; 
+        cursor: pointer; 
+        border-radius: 5px;
+    }
+.order-button{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin-right: 10px; 
+    float: right;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+.blue-text {
+    color: blue; 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1229px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: var(--mainColor);
+}
+#icon{
+    float: right;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+#popup-container {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.hidden {
+    display: none;
+}
+

@@ -1,0 +1,19 @@
+.cart {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+}
+
+#total-price {
+    font-weight: bold;
+}
