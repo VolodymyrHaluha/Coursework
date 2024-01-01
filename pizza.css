@@ -141,7 +141,7 @@ html, body{
     padding: 8px;
     background-color: rgba(255, 255, 255, 0.8);
 }
-.cooperation{
+cooperation{
     display: flex;
     justify-content: center;
 }
@@ -162,15 +162,15 @@ html, body{
     background-color: rgba(255, 255, 255, 0.8);
 
 }
-.registration-button{
-        background-color: #4CAF50; 
-        color: white; 
-        padding: 10px 20px; 
-        font-size: 16px; 
-        border: none; 
-        cursor: pointer; 
-        border-radius: 5px;
-    }
+.registration-button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .order-button{
     background-color: #4CAF50; 
     color: white; 

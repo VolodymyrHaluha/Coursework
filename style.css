@@ -101,6 +101,8 @@ h1{
   @media (max-width: 768px) {
     .header-container{
         flex-direction: column;
+        align-items: stretch; 
+        padding: 10px;
     }
     .sale_section_block1,
     .sale_section_block2,
@@ -124,7 +126,8 @@ html, body{
     display: block;
     background-color: rgb(240, 238, 178);
     height: 100%;
-    margin: 0; 
+    max-width: 1200px; 
+    margin: 0 auto;
     padding: 0;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Manrope', sans-serif;
@@ -132,28 +135,43 @@ html, body{
     font-family: 'Roboto Slab', serif;
 }
 .header-container {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(137, 240, 124);
     border-bottom: 1px solid rgb(205, 50, 50);
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
-    transition: font-size 0.5s ease;
     color: aqua;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1229px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: var(--mainColor);
 }
 .image_sale{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
+.main_container {
+    padding: 20px; 
+}
 .last_container{
+    text-align: center;
     justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin: 5px;
 }
 .sale_section_block1,
 .sale_section_block2,
@@ -168,9 +186,7 @@ html, body{
     background-color: rgba(255, 255, 255, 0.8);
 }
 .sale-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     text-align: center;
     margin: 5px;
     border-radius: 10px; 
@@ -206,8 +222,14 @@ html, body{
     background-color: rgba(255, 255, 255, 0.8);
 }
 .cooperation{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+
 }
 .image_bolt,
 .image_user{
@@ -258,15 +280,7 @@ html, body{
 .blue-text {
     color: blue; 
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1229px;
-    margin: 0 auto;
-    padding: 10px 0;
-    background-color: var(--mainColor);
-}
+
 #icon{
     float: right;
     cursor:pointer;
