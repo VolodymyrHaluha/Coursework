@@ -8,7 +8,7 @@ h1{
     text-align: center
 }
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
-@media (min-width: 992px) {
+@media (min-width: 312px) {
     .header-container{
         width: 100%;
     }
@@ -32,7 +32,7 @@ h1{
     }
   }
   
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 312px) and (max-width: 600px) {
 
     .header-container{
         flex-wrap: wrap;
@@ -97,12 +97,16 @@ h1{
         width: 100%;
     }
   }
-  
-  @media (max-width: 768px) {
+  .header-container a{
+    margin: 0 20px;
+  }
+  @media (max-width: 600px) {
     .header-container{
-        flex-direction: column;
-        align-items: stretch; 
-        padding: 10px;
+        flex-direction: center;
+        align-items: center; 
+    }
+    .header-container a{
+       margin: 50px 0;  
     }
     .sale_section_block1,
     .sale_section_block2,
@@ -122,6 +126,7 @@ h1{
         flex-direction: column;
     }
   }
+
 html, body{
     display: block;
     background-color: rgb(240, 238, 178);
@@ -129,21 +134,18 @@ html, body{
     max-width: 1200px; 
     margin: 0 auto;
     padding: 0;
-    font-family: 'Exo 2', sans-serif;
     font-family: 'Manrope', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Roboto Slab', serif;
 }
 .header-container {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
     background-color: rgb(137, 240, 124);
     border-bottom: 1px solid rgb(205, 50, 50);
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
-    color: aqua;
-    display: flex;
     text-align: center;
     margin: 5px;
     border-radius: 10px; 
@@ -152,10 +154,8 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1229px;
     margin: 0 auto;
     padding: 10px 0;
-    background-color: var(--mainColor);
 }
 .image_sale{
     max-width: 100%;

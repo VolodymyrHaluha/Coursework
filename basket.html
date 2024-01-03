@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="basket.css">
 <script src="java.js" defer></script>
 <title>Кошик</title>
 
@@ -28,19 +28,17 @@
             <a href="./pizza-section.html">Піцца</a>
             <a href="./drinks-section.html">Напої</a>
             <a href="#contacts-section">Контакти</a>
-             <a href="basket.html"> <img src="./images/basket.png" alt="Іконка" id="icon">
-            <div id="popup-container" class="hidden">
                 
             </div>
-        </a>
         </header>
     </div>
 
     <div class="cart">
         <h3>Кошик</h3>
-        <ul id="cart-items"></ul>
-        <p id="total-price">Загальна сума: $0.00</p>
-        <button onclick="checkout()">Оформити замовлення</button>
+        <ul id="cart-items"></ul>  
+        <button class="recet-offer" onclick="cancelOrder()"> Відмінити замовлення</button>
+        <p id="total-price">Загальна сума:0.00 UAH</p>
+        <button class="done-offer" onclick="checkout()">Оформити замовлення</button>
     </div>
     
 
@@ -66,62 +64,5 @@
         </button>
     </div>
 </section>
-
-
-<!-- Додайте цей скрипт в кінці вашого HTML-файлу, перед </body> -->
-<script>
-    // Функція, яка додає товар до кошика
-    function addToCart(itemName, itemPrice) {
-        // Отримати або створити кошик в локальному сховищі
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        // Додати новий товар до кошика
-        cart.push({ name: itemName, price: itemPrice });
-
-        // Зберегти оновлений кошик в локальному сховищі
-        localStorage.setItem('cart', JSON.stringify(cart));
-
-        // Викликати функцію для оновлення відображення кошика
-        updateCartDisplay();
-    }
-
-    // Функція для оновлення відображення кошика
-    function updateCartDisplay() {
-        // Отримати елементи з DOM, які відображають кошик
-        const cartItemsElement = document.getElementById('cart-items');
-        const totalPriceElement = document.getElementById('total-price');
-
-        // Отримати кошик з локального сховища
-        const cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        // Очистити поточне відображення
-        cartItemsElement.innerHTML = '';
-
-        // Додати кожен товар з кошика до відображення
-        cart.forEach(item => {
-            const listItem = document.createElement('li');
-            listItem.textContent = `${item.name}: $${item.price.toFixed(2)}`;
-            cartItemsElement.appendChild(listItem);
-        });
-
-        // Підрахувати загальну суму
-        const totalPrice = cart.reduce((total, item) => total + item.price, 0);
-
-        // Оновити відображення загальної суми
-        totalPriceElement.textContent = `Загальна сума: $${totalPrice.toFixed(2)}`;
-    }
-
-    // Функція для оформлення замовлення
-    function checkout() {
-        // Тут ви можете додати логіку для переходу на сторінку оформлення замовлення
-        // Наприклад, можна використовувати window.location.href
-        // window.location.href = 'basket.html';
-        alert('Оформлення замовлення!');
-    }
-
-    // Викликати функцію для оновлення відображення кошика при завантаженні сторінки
-    window.onload = updateCartDisplay;
-</script>
-
-
+<script src="java.js"></script>
 </body>
