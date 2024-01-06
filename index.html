@@ -6,135 +6,38 @@
 <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 <title>СмакоДоставка</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/style-guest.css">
 </head>
 <body>
 
-    <div class="header-container">
-        <header class="header">
-
-            <div class="logo-container">
-                <img src="./images/main_icon.png" alt="Логотип" id="logo">
-                <a class="blue-text" href="./index.html">Доставка їжі в твоє місто - СмакоДоставка!</a>
-            </div>
-
-            <a href="./vegetables-section.html">Овочі</a>
-            <a href="./fruits-section.html">Фрукти</a>
-            <a href="./pizza-section.html">Піцца</a>
-            <a href="./drinks-section.html">Напої</a>
-            <a href="#contacts-section">Контакти</a>
-             <a href="basket.html"> <img src="./images/basket.png" alt="Іконка" id="icon">
-
-        </a>
-        </header>
-    </div>
-<H2>
-    Кількість товару в кошику 
-</H2>
-    <h3>
-        <div id="cart-count">0</div>
-    </h3>
-    <container class="main_container">
-    <main class="main">
-        <h1 class="sale_h1">
-            Акційні пропозиції сьогодні!
-        </h1> 
-
-        <section class="sale-section">
-
-            <div class="sale_section_block1" data-id="1">
-                <img class="image_sale" alt="Sale" src="./images/sale1.png">
-                <p>Акційний набір "Домашній" ціна 210грн
-                  <button class="order-button" data-name="Акційний набір 'Домашній'" data-price="210">
-                    Замовити
-                  </button>
-                </p>
-              </div>
-               
-            <div class="sale_section_block2" data-id="2">
-              <img class="image_sale" alt="Sale" src="./images/sale2.png">
-              <p>Акційний набір "Сухпайок" ціна 135грн
-                <button class="order-button" data-name="Акційний набір 'Сухпайок'" data-price="135">
-                  Замовити
-                </button>
-              </p>
-            </div>
-            <div class="sale_section_block3" data-id="3">
-              <img class="image_sale" alt="Food" src="./images/unifood.png">
-              <p>Акційний набір "Домашній" ціна 99грн
-                <button class="order-button" data-name="Акційний набір 'Домашній'" data-price="99">
-                  Замовити
-                </button>
-              </p>
-            </div>
-            <div class="sale_section_block4" data-id="4">
-              <img class="image_sale" alt="candys" src="./images/candys.png">
-              <p>Акційний набір "Китайські солодощі" ціна 70грн
-                <button class="order-button" data-name="Акційний набір 'Китайські солодощі'" data-price="70">
-                  Замовити
-                </button>
-              </p>
-            </div>
-        
-          </section>
-        <h1 class="sets_h1">
-            Сети
-        </h1>
-    <section class="sets-section">
-        <div class="sets_section_block1">
-            <img class="image_sale_rolls" alt="Sets" src="./images/Filadelfy.png">
-            <p>Сет "Філадельфія" ціна 555грн
-                <button class="order-button">
-                    Замовити
-                </button>
+    <section class="about-us">
+        <div class="container">
+            <h1>Про нас</h1>
+            <p>
+                Ласкаво просимо до СмакоДоставка! Ми - команда ентузіастів, яка працює в галузі доставки їжі протягом декількох років. 
+                Наша місія - забезпечити вас смачною та свіжою їжею простим і зручним способом.
             </p>
-             </div>  
-            <div class="sets_section_block2">
-            <img class="image_sale_rolls" alt="Sets" src="./images/Tokyo.png">
-            <p>Сет "Токіо" ціна 345грн
-                <button class="order-button">
-                    Замовити
-                </button>
+            <p>
+                Протягом нашої діяльності ми здобули довіру та визнання більше, ніж від 1000 задоволених клієнтів. 
+                Ми пишаємося великими відгуками, які отримали від наших клієнтів і завжди стежимо за тим, щоб кожен замовник отримав найкращий сервіс.
             </p>
-        </div>
-            <div class="sets_section_block3">
-            <img class="image_sale_rolls" alt="Sets" src="./images/Fusion.png">
-            <p>Сет "Fusion" ціна 380грн 
-                <button class="order-button">
-                    Замовити
-                </button>
+            <p>
+                У нас ви знайдете різноманіття страв для всіх смаків та усіх захоплень. 
+                Ми горді тим, що можемо задовольнити будь-який гастрономічний запит та зробити ваш день ще смачнішим.
             </p>
-        </div>
-        <div class="sets_section_block4">
-            <img class="image_sale_rolls" alt="Sets" src="./images/Maki.png">
-            <p>Сет "Макі" ціна 330грн
-                <button class="order-button">
-                    Замовити
-                </button>
-            </p>
-        </div>
-        <div class="sets_section_block5">
-            <img class="image_sale_rolls" alt="Sets" src="./images/Dragons.png">
-            <p>Сет "Дракони" ціна 425грн
-                <button class="order-button">
-                    Замовити
-                </button>
-            </p>
+          
         </div>
     </section>
-
-    <h1>Співпраця</h1>
-    <section class="cooperation">
+<section class="cooperation">
     <div class="cooperation-section-cour">
         <img class="image_bolt" alt="Bolt" src="./images/bolt.png">
             <h2>Якщо ви хочете стати нашим співробітником? 
                 <br>
                 Тоді ви можете приєднатися, та почати замовляти гроші від наступного дня</h2>
         <button class="registration-button">
-            <a href="/Coursework/regist.html"style="color: white;">Стати кур'єром</a>
+            <a href="/regist.html"style="color: white;">Стати кур'єром</a>
         </button>
     </div>
     <div class="cooperation-section-user">
@@ -145,12 +48,16 @@
                 Тоді ви можете приєднатися, та зробити замовлення</h2>
 
         <button class="registration-button">
-            <a href="/Coursework/regist-shopp.html"style="color: white;"> Увійти, або зареєструватися</a>
+            <a href="/regist-shopp.html"style="color: white;"> Увійти, або зареєструватися</a>
         </button>
     </div>
 </section>
-</main>
-</container>
+<section class="admin">
+    <button class="logAdmn">
+<a href="/admin-loginPass.html" style="color:white">Увійти,як адмін</a> 
+</button>
+</section>
+<footer>
 <contaner class="last_container">
 
 
@@ -173,6 +80,7 @@
 </footer>
 
 </contaner>
-<script src="java.js"></script>
+<script src="https://kit.fontawesome.com/2fc35caef4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

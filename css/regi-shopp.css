@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-image: url(/images/user.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+html, body {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 238, 178);
+}
+
+.registration-container {
+    padding: 10px;
+    border-radius: 10px; 
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-column {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+#login, #password, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
+body{
+    background-color: bisque;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+A{
+    text-decoration: none;
+}
+A:hover, A:focus{
+color: rgb(253, 253, 253);
+text-decoration: none;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+.navbar{
+    margin: 1px;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 5px;
+    background: #4CAF50;
+    border-color:rgb(139, 88, 88);
+    border-radius: 10px; 
+}
+h1{
+    text-align: center
+} 
+.navbar A{
+    margin: 0 20px;
+  }
+ 
+.last_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  
+.cooperation-section-cour{
+    text-align: center; 
+    justify-items: center ;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.basket{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin-right: 10px; 
+    float: right;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+.blue-text {
+    color: blue; 
+}
+
+#icon{
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+#popup-container {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.hidden {
+    display: none;
+}
+.registration-success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Заблюрювання фону */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Щоб було над усім іншим контентом */
+}
+
+.registration-success p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}

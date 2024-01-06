@@ -5,34 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="basket.css">
-<script src="java.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="/css/basket.css">
 <title>Кошик</title>
 
 <body>
 
-    <div class="header-container">
-        <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/main_icon.png" id="logo" alt="Логотип">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="UserPage.html">Домашня сторінка</a>
+                    </li>
+                    <li>
+                    <a class ="nav-link active" aria-current="page" href="MyAcc.html">Мій профіль</a>
+                    </li>
+                    <li class="nav-item dropdown bg">
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link active" href="regist-shopp.html">Замовник</a></li>
+                            <li><a class="nav-link active" href="regist.html">Кур'єр</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link active" href="admin.html">Увійти, як адміністратор</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">
+                            <H6>
+                                Кількість товару в кошику<div id="cart-count">0</div>
+                            </H6>
+                        </a>
+                    </li>
+                </ul>
 
-            <div class="logo-container">
-                <img src="./images/main_icon.png" alt="Логотип" id="logo">
-                <a class="blue-text" href="./index.html">Доставка їжі в твоє місто - СмакоДоставка!</a>
             </div>
-
-            <a href="./vegetables-section.html">Овочі</a>
-            <a href="./fruits-section.html">Фрукти</a>
-            <a href="./pizza-section.html">Піцца</a>
-            <a href="./drinks-section.html">Напої</a>
-            <a href="#contacts-section">Контакти</a>
-                
-            </div>
-        </header>
-    </div>
-
+        </div>
+    </nav>
     <div class="cart">
         <h3>Кошик</h3>
         <ul id="cart-items"></ul>  
@@ -41,7 +57,6 @@
         <button class="done-offer" onclick="checkout()">Оформити замовлення</button>
     </div>
     
-
 <section class="cooperation">
     <div class="cooperation-section-cour">
         <img class="image_bolt" alt="Bolt" src="./images/bolt.png">
@@ -64,5 +79,7 @@
         </button>
     </div>
 </section>
-<script src="java.js"></script>
+<script src="js/java.js"></script>
+<script src="https://kit.fontawesome.com/2fc35caef4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

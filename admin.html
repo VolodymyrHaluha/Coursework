@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPage</title>
+    <link rel="stylesheet" href="/css/Admin-styles.css">
+</head>
+<body>
+
+    <div class="constructor-container">
+        <h2>Конструктор товару</h2>
+        <form id="productForm">
+            <label for="productName">Назва товару:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="productPrice">Ціна:</label>
+            <input type="number" id="productPrice" name="productPrice" required>
+
+            <label for="productImage">Фото (URL):</label>
+            <input type="text" id="productImage" name="productImage" required>
+
+            <button type="button" onclick="addProduct()">Додати товар</button>
+        </form>
+    </div>
+
+    <div class="orders-container">
+        <h2>Замовлення</h2>
+        <table id="ordersTable">
+            <thead>
+                <tr>
+                    <th>Номер замовлення</th>
+                    <th>Товар</th>
+                    <th>Ціна</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="users-container">
+        <h2>Користувачі</h2>
+        <table id="usersTable">
+            <thead>
+                <tr>
+                    <th>Логін</th>
+                    <th>Пароль</th>
+                    <th>Тип</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/js/Admin-scripts.js"></script>
+</body>
+</html>

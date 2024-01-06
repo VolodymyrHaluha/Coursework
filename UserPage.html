@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<title>СмакоДоставка</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/main_icon.png" id="logo" alt="Логотип">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Домашня сторінка</a>
+                    </li>
+                    <li>
+                    <a class ="nav-link active" aria-current="page" href="MyAcc.html">Мій профіль</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="basket.html">Кошик <i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">
+                            <H6>
+                                Кількість товару в кошику<div id="cart-count">0</div>
+                            </H6>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <container class="main_container">
+    <main class="main">
+        <h1 class="sale_h1">
+            Акційні пропозиції сьогодні!
+        </h1> 
+
+        <section class="sale-section">
+
+            <div class="sale_section_block1" data-id="1">
+                <img class="image_sale" alt="Sale" src="./images/sale1.png">
+                <p>Акційний набір "Домашній" ціна 210грн
+                  <button class="order-button" data-name="Акційний набір 'Домашній'" data-price="210">
+                    Замовити
+                  </button>
+                </p>
+              </div>
+               
+            <div class="sale_section_block2" data-id="2">
+              <img class="image_sale" alt="Sale" src="./images/sale2.png">
+              <p>Акційний набір "Сухпайок" ціна 135грн
+                <button class="order-button" data-name="Акційний набір 'Сухпайок'" data-price="135">
+                  Замовити
+                </button>
+              </p>
+            </div>
+            <div class="sale_section_block3" data-id="3">
+              <img class="image_sale" alt="Food" src="./images/unifood.png">
+              <p>Акційний набір "Домашній" ціна 99грн
+                <button class="order-button" data-name="Акційний набір 'Домашній'" data-price="99">
+                  Замовити
+                </button>
+              </p>
+            </div>
+            <div class="sale_section_block4" data-id="4">
+              <img class="image_sale" alt="candys" src="./images/candys.png">
+              <p>Акційний набір "Китайські солодощі" ціна 70грн
+                <button class="order-button" data-name="Акційний набір 'Китайські солодощі'" data-price="70">
+                  Замовити
+                </button>
+              </p>
+            </div>
+        
+          </section>
+        <h1 class="sets_h1">
+            Популярні замовлення
+        </h1>
+        <section class="sets-section">
+            <div class="sets_section_block1">
+                <img class="image_sale" alt="Sets" src="./images/Filadelfy.png">
+                <p>Сет "Філадельфія" ціна 555грн
+                    <button class="order-button" data-name="Сет 'Філадельфія'" data-price="555">
+                        Замовити
+                    </button>
+                </p>
+            </div>  
+            <div class="sets_section_block2">
+                <img class="image_sale" alt="Sets" src="./images/Tokyo.png">
+                <p>Сет "Токіо" ціна 345грн
+                    <button class="order-button" data-name="Сет 'Токіо'" data-price="345">
+                        Замовити
+                    </button>
+                </p>
+            </div>
+            <div class="sets_section_block3">
+                <img class="image_sale" alt="Sets" src="./images/Fusion.png">
+                <p>Сет "Fusion" ціна 380грн 
+                    <button class="order-button" data-name="Сет 'Fusion'" data-price="380">
+                        Замовити
+                    </button>
+                </p>
+            </div>
+            <div class="sets_section_block4">
+                <img class="image_sale" alt="Sets" src="./images/Maki.png">
+                <p>Сет "Макі" ціна 330грн
+                    <button class="order-button" data-name="Сет 'Макі'" data-price="330">
+                        Замовити
+                    </button>
+                </p>
+            </div>
+            <div class="sets_section_block5">
+                <img class="image_sale" alt="Sets" src="./images/Dragons.png">
+                <p>Сет "Дракони" ціна 425грн
+                    <button class="order-button" data-name="Сет 'Дракони'" data-price="425">
+                        Замовити
+                    </button>
+                </p>
+            </div>
+        <div class="Drink">
+            <img class="image_sale" alt="Drink" src="./images/sch.png">
+            <p>Газований напій ціна 25грн
+                <button class="order-button" data-name="Газировка" data-price="25">
+                    Замовити
+                </button>
+            </p>
+        </div>
+    </section>
+</main>
+</container>
+<footer>
+<contaner class="last_container">
+
+
+    <div class="logo-container">
+        Доставка їжі в твоє місто -СмакоДоставка!
+    </div>
+    <div class="contact-info">
+        <a id="contacts-section">
+<h2>Контактна інформація</h2></a>
+<p>
+    Адреса: івано-Франківськ, вул.Василя Стуса 39.  
+</p>
+<p>
+    email: galuga2005@gmail.com , galuga2005@icloud.com
+</p>
+<p>
+    Телефон: +380 96 450 3421
+</p>
+</div>
+</footer>
+
+</contaner>
+<script src="js/java.js"></script>
+<script src="https://kit.fontawesome.com/2fc35caef4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

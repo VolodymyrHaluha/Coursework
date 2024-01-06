@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
+body{
+    background-color: bisque;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+A{
+    text-decoration: none;
+}
+A:hover, A:focus{
+color: rgb(253, 253, 253);
+text-decoration: none;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+.navbar{
+    margin: 1px;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 5px;
+    background: #4CAF50;
+    border-color:rgb(139, 88, 88);
+    border-radius: 10px; 
+}
+h1{
+    text-align: center
+} 
+.image_sale{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.main_container {
+    padding: 20px; 
+}
+.last_container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sale-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sale_section_block1,
+.sale_section_block2,
+.sale_section_block3,
+.sale_section_block4{
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.image_sale_rolls{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.image_sale_drink{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sets_section_block1,
+.sets_section_block2,
+.sets_section_block3,
+.sets_section_block4,
+.sets_section_block5,
+.Drink {
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sets-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.cooperation{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(252, 228, 124, 0.8);
+
+}
+.image_bolt,
+.image_user{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.cooperation-section-cour,
+.cooperation-section-user {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.registration-button,
+.logAdmn {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.admin{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.basket{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px; 
+    color: #000000;
+    padding: 8px;
+}
+.order-button{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin-right: 10px; 
+    float: right;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+.blue-text {
+    color: blue; 
+}
+
+#icon{
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+#popup-container {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.hidden {
+    display: none;
+}
+

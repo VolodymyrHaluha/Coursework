@@ -4,6 +4,15 @@
     border-radius: 10px;
     margin-top: 20px;
 }
+.navbar{
+    margin: 1px;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 5px;
+    background: #4CAF50;
+    border-color:rgb(139, 88, 88);
+    border-radius: 10px; 
+}
 
 #cart-items {
     list-style-type: none;
@@ -45,61 +54,12 @@ color: blue
 h1{
     text-align: center
 }
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Manrope:wght@300;500;700&family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
-@media (min-width: 992px) {
-    .header-container{
-        width: 100%;
-    }
-    .cooperation-section-cour,
-    .cooperation-section-user{
-        width: 25%;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 992px) {
-
-    .header-container{
-        flex-wrap: wrap;
-    }
-    .cooperation-section-cour,
-    .cooperation-section-user{
-        flex-wrap: wrap;
-    }
-
-    .header-container{
-        width: 50%;
-    }
-    .cooperation-section-cour,
-    .cooperation-section-user{
-        width: 50%;
-    }
-
-    .header-container{
-        width: 100%;
-    }
-    .cooperation-section-cour,
-    .cooperation-section-user{
-        width: 100%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .header-container{
-        flex-direction: column;
-        align-items: stretch; 
-        padding: 10px;
-    }
-    .cooperation-section-cour,
-    .cooperation-section-user{
-        flex-direction: column;
-    }
-  }
 html, body{
     display: block;
     background-color: rgb(240, 238, 178);
     height: 100%;
     max-width: 1200px; 
-    margin: 0 auto;
+    margin-top: 15px ;
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
